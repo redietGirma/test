@@ -1,10 +1,11 @@
 export const environment = {
-  production: false,
+  production: true,
   baseUrl: 'http://api.mfr.sandboxaddis.com/collections/21/fred_api/v1/',
   baseUrlLocal: 'http://api.stage.mfr.moh.gov.et/api',
-  collectionId: 21,
-  latIndex: 0,
-  lngIndex: 1,
+  
   elastic_search: "http://52.58.154.102:9200",
   logstash: "http://52.58.154.102:9600"
 };
+
+
+
